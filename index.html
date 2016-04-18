@@ -5,20 +5,22 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Fortune Cookie Generator</title>
         <meta name="description" content="This page generates fortune cookie sayings.">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="stylesheet" href="main.css">
         <script type="text/javascript" src="fortune-cookie-generator.js"></script>
     </head>
     <body>
+      <div class="page-header">    
         <h1>Fortune Cookie Generator</h1>
-        <p>Use this page to generate fortune cookie sayings.</p>
+        <p>Use this page to generate fortune cookie sayings.      
+        </p>
+        </div>
         <div class="fortune-cookie-saying-wrapper">
             <p id="fortune-cookie-text">Click the button to generate a saying.</p>
         </div>
         <!-- TODO: Make this button execute the `generateFortuneCookie()` function. -->
-        <button class="generate-button">
-            Make My Fortune!
+        <button class="btn btn-large btn-inversion" type="button" onclick="generateFortuneCookie()">Make My Fortune!          
         </button>
         <hr>
         <h2>Previous Fortunes</h2>

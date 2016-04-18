@@ -3,11 +3,34 @@
 html {
     text-align: center;
     padding: 2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: black;
+}
+
+.page-header {
+  background-color: black;
+  color: #FDFCDC; 
+}
+
+body {
+  background-color: black;
 }
 
 .fortune-cookie-saying-wrapper {
-    border: 1px solid #666;
+    border: 3px solid #666;
     padding: 1em;
-    margin: 1em;
+    margin: 1em;   
+    background-color: #FDFCDC; 
+}
+
+#fortune-cookie-text {
+  font: 2em bold
+}
+
+h2 {
+  color: #FDFCDC;
+}
+
+#previous-fortunes-container {
+  color: #FDFCDC; 
 }
